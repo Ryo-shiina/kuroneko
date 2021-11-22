@@ -10,13 +10,22 @@ from PIL import Image
 
 st.title('あなたが飲みたいコーヒーは？')
 st.write('私のコーヒーマスターです。あなたが好きなコーヒーを探し出します')
+
 kaori = st.selectbox(
     'あなたが好きなコーヒーの香りは？',
     list(['甘い香り','芳しい香り'])
     )
 sanmi = st.selectbox(
-    'コーヒーの酸味は好きですか？')
-st.write('あなたが選択したのは、 ',kaori,'です')
+    'コーヒーに求める酸味はなんですか？',
+    list(['爽やか','適度','華やか'])
+    )
+nigami = st.selectbox(
+    'コーヒーの苦味の好みはなんですか？',
+    list(['ソフトな苦み','強い苦み'])
+    )
+
+st.write('あなたが選択したのは', kaori,'で' ,sanmi ,'な', nigami,'のあるコーヒーです')
+
 
 
 
@@ -27,4 +36,6 @@ if button:
     right_column.write('ここは右カラムです')
 img = Image.open('S__28573763.jpg')
 st.image(img, caption='側転練習中の私です', use_column_width=True)    
+    
+
     
