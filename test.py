@@ -31,7 +31,7 @@ st.write('そんなコーヒーを探しているあなたに私がオススメ�
 if st.button('結果を表示'):
     img = Image.open('monster_Twitter_logo_400x400.jpg')
     st.image(img, caption='©：Monster Energy Japan', 
-             use_column_width=)
+             use_column_width=200)
     st.write('良いモンエナライフを！！')
     
 
