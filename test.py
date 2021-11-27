@@ -29,9 +29,9 @@ st.write('あなたが選択したのは', kaori,'で' ,sanmi ,'な', nigami,'�
 st.write('そんなコーヒーを探しているあなたに私がオススメするのは...')
 
 if st.button('結果を表示'):
-    img = Image.open('monster_Twitter_logo_400x400.jpg')
-    st.image(img, caption='引用：Monster Energy Japan', 
-             use_column_width=200)
+    img = Image.open('img_3917-scaled.jpg')
+    st.image(img, caption='©：Monster Energy Japan', 
+             use_column_width=True)
     st.write('良いモンエナライフを！！')
     
 
