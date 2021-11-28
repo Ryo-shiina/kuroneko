@@ -28,7 +28,7 @@ st.write('あなたが選択したのは', kaori,'で' ,sanmi ,'な', nigami,'�
 st.write('そんなコーヒーを探しているあなたに私がオススメするのは...')
 
 if st.button('結果を表示'):
-    st.title('Monster Energy)
+    st.title('Monster Energy')
     st.write('良いモンエナライフを！！')
     
 
