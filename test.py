@@ -6,7 +6,6 @@ This is a temporary script file.
 """
 
 import streamlit as st
-from PIL import Image
 
 st.title('あなたが飲みたいコーヒーは？')
 st.write('私はコーヒーマスターです。あなたが好きなコーヒーを探し出します')
@@ -29,9 +28,7 @@ st.write('あなたが選択したのは', kaori,'で' ,sanmi ,'な', nigami,'�
 st.write('そんなコーヒーを探しているあなたに私がオススメするのは...')
 
 if st.button('結果を表示'):
-    img = Image.open('monster_Twitter_logo_400x400.jpg')
-    st.image(img, caption='©：Monster Energy Japan', 
-             use_column_width=200)
+    st.title('Monster Energy)
     st.write('良いモンエナライフを！！')
     
 
